@@ -1,0 +1,25 @@
+mtllib road2.mtl
+g PROCEDURAL_MESHES_PLANE#0
+
+# Vertex Positions:
+v 21.32542 0 11.29771
+v -21.32542 0 11.29771
+v -21.32542 0 -11.29771
+v 21.32542 0 -11.29771
+
+# Vertex Texture Coordinates:
+vt 1 0 
+vt 0 0 
+vt 0 1 
+vt 1 1 
+
+# Vertex Surface Normals:
+vn 0 1 0
+vn 0 1 0
+vn 0 1 0
+vn 0 1 0
+
+# Faces:
+usemtl Default Material 2
+f 2/2/2 4/4/4 3/3/3
+f 2/2/2 1/1/1 4/4/4
