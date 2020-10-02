@@ -6,34 +6,41 @@ public class CheckPointSystem : MonoBehaviour
 {
 
     public GameObject playerNCar;
-   // public int size;
     public GameObject[] waypointObjects;
+    private int counter = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        //waypointObjects = new GameObject[size];
-      
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //WayPointFunction();   
     }
 
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Wow Ethan!");
-        //for(int i = 0; i < waypointObjects.Length; i++)
-        //{
-        //Debug.Log(i);
-        if (playerNCar.gameObject == waypointObjects[0])
+       // Debug.Log("Wow Ethan!");
+
+        for (int i = 0; i < waypointObjects.Length; i++)
+        {
+            if (other.gameObject == waypointObjects[i])
             {
-                Debug.Log("Do Something");
+                Debug.Log("Waypoint: " + i);
+                Destroy(waypointObjects[i]);
+                counter++;
             }
-        //}
+
+            if (counter == waypointObjects.Length)
+            {
+                Debug.Log("you made it!");
+            }
+
+        }
+     
     }
 
 }
