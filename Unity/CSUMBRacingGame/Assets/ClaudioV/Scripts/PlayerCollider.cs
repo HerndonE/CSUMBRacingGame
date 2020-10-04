@@ -20,13 +20,13 @@ public class PlayerCollider : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Pedestrian")) {
-            other.GetComponent<PedestrianAI>().CarReact("enterPlayer", null);
+            other.GetComponent<Pedestrian>().CarReact("enterPlayer", null);
         }
     }
 
     private void OnTriggerExit(Collider other) {
         if (other.CompareTag("Pedestrian")) {
-            other.GetComponent<PedestrianAI>().CarReact("exitPlayer", null);
+            other.GetComponent<Pedestrian>().CarReact("exitPlayer", null);
         }
     }
 }

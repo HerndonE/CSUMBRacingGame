@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PedestrianCollider : MonoBehaviour
 {
-    PedestrianAI parentScript;
+    Pedestrian parentScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        parentScript = transform.GetComponentInParent<PedestrianAI>();
+        parentScript = transform.GetComponentInParent<Pedestrian>();
     }
 
     // Update is called once per frame

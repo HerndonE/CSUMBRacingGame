@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 16
+  controlID: 73
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 101
+  controlID: 97
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -427,9 +427,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.694082, y: 21.430082, z: -18.343811}
+    m_Target: {x: 74.057304, y: -85.78621, z: -15.201472}
     speed: 2
-    m_Value: {x: 11.694082, y: 21.430082, z: -18.343811}
+    m_Value: {x: 74.057304, y: -85.78621, z: -15.201472}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -475,13 +475,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20604853, y: -0.6802892, z: 0.20865235, w: -0.67176145}
+    m_Target: {x: 0.016612753, y: -0.90084314, z: 0.43250498, w: 0.034618296}
     speed: 2
-    m_Value: {x: -0.20604353, y: -0.68027264, z: 0.20864727, w: -0.6717451}
+    m_Value: {x: 0.016612312, y: -0.9008192, z: 0.43249348, w: 0.034617376}
   m_Size:
-    m_Target: 1.5265262
+    m_Target: 92.49737
     speed: 2
-    m_Value: 1.5265262
+    m_Value: 92.49737
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9e2f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6afbffff
+      m_ExpandedIDs: e8f7ffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -625,8 +625,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/ClaudioV/Scripts
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -666,7 +665,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000f2340000f4340000f6340000f8340000
+    m_ExpandedIDs: ffffffff00000000f2340000f4340000f6340000f834000004380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
