@@ -18,15 +18,15 @@ public class PedestrianCollider : MonoBehaviour
         
     }
 
-    public void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.CompareTag("Player")) {
-            parentScript.SetFreeze(true);
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Player")) {
+            parentScript.CarReact("enterPedestrian", other.transform);
         }
     }
 
-    public void OnCollisionExit(Collision collision) {
-        if (collision.gameObject.CompareTag("Player")) {
-            parentScript.SetFreeze(false);
+    private void OnTriggerExit(Collider other) {
+        if (other.CompareTag("Player")) {
+            parentScript.CarReact("exitPedestrian", other.transform);
         }
     }
 }
