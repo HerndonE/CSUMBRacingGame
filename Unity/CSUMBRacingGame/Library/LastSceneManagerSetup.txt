@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/GeoffreyW/GWScene.unity
+=======
+<<<<<<< HEAD
+- path: Assets/ClaudioV/CVScene.unity
+=======
+- path: Assets/EthanH/EHScene.unity
+>>>>>>> master
+>>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0
