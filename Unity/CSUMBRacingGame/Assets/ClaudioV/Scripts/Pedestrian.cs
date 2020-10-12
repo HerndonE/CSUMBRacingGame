@@ -28,7 +28,7 @@ public class Pedestrian : MonoBehaviour
 
         speed = Random.Range(2, 9);
         direction = Random.Range(0, 2) == 0 ? -1 : 1;
-        walkStyle = Random.Range(0, 2);
+        walkStyle = 0;
         carReaction = Random.Range(0, 3);
 
         if (carReaction != 2) {
@@ -53,7 +53,7 @@ public class Pedestrian : MonoBehaviour
 
             if (walkStyle == 0) { // Regular Walking
                 transform.Translate(Vector3.forward * speed * Time.deltaTime);
-            } else { // Hopping
+            } else { // Hopping (Doesn't work with New Models)
                 Vector3 rbv = rb.velocity;
                 rbv.x = transform.forward.x * speed;
                 rbv.z = transform.forward.z * speed;
