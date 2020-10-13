@@ -31,11 +31,11 @@ public class Pedestrians : MonoBehaviour
             pedestrians.Add(new List<Pedestrian>());
 
             // Loop through Each Waypoint in Loop, Spawn a Pedestrian at Each Waypoint
-            for (int j = 0; j < currWPLoop.childCount; j++) {
+            for (int j = 0; j < currWPLoop.childCount; j += 2) {
                 Vector3 waypointPos = currWPLoop.GetChild(j).position;
 
                 pedestrians[i].Add(Instantiate(RandomPedestrian(), new Vector3(waypointPos.x, 1.5f, waypointPos.z), Quaternion.identity, transform));
-                pedestrians[i][j].SpawnPedestrian(currWPLoop, j);
+                pedestrians[i][j/2].SpawnPedestrian(currWPLoop, j);
             }
         }
     }
