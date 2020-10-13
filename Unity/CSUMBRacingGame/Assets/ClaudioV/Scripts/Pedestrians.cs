@@ -34,7 +34,7 @@ public class Pedestrians : MonoBehaviour
             for (int j = 0; j < currWPLoop.childCount; j++) {
                 Vector3 waypointPos = currWPLoop.GetChild(j).position;
 
-                pedestrians[i].Add(Instantiate(RandomPedestrian(), new Vector3(waypointPos.x, 0.375f, waypointPos.z), Quaternion.identity, transform));
+                pedestrians[i].Add(Instantiate(RandomPedestrian(), new Vector3(waypointPos.x, 1.5f, waypointPos.z), Quaternion.identity, transform));
                 pedestrians[i][j].SpawnPedestrian(currWPLoop, j);
             }
         }
