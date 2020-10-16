@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8391748007695622485}
   - component: {fileID: 8391748007695622487}
   - component: {fileID: 8391748007695622486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 8391748008599764339}
   - component: {fileID: 8391748008599764349}
   - component: {fileID: 8391748008599764348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 8391748008714508178}
   - component: {fileID: 8391748008714508177}
   - component: {fileID: 8391748008714508176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Buckle_Outer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 8391748008724260675}
   - component: {fileID: 8391748008724260674}
   - component: {fileID: 8391748008724260673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SantaPedestrian
   m_TagString: Pedestrian
   m_Icon: {fileID: 0}
@@ -356,7 +356,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8391748008724260679}
   serializedVersion: 2
-  m_Mass: 0.5
+  m_Mass: 0.1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -378,6 +378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentWP: 0
   speed: 0
+  jumpSpeed: 200
 --- !u!1 &8391748009038735478
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,7 +390,7 @@ GameObject:
   - component: {fileID: 8391748009038735479}
   - component: {fileID: 8391748009038735473}
   - component: {fileID: 8391748009038735472}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pants_Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +469,7 @@ GameObject:
   - component: {fileID: 8391748009042023154}
   - component: {fileID: 8391748009042023164}
   - component: {fileID: 8391748009042023155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pants_Lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +549,7 @@ GameObject:
   - component: {fileID: 8391748009044693785}
   - component: {fileID: 8391748009044693784}
   - component: {fileID: 8391748009044693791}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,7 +643,7 @@ GameObject:
   - component: {fileID: 8391748009050540103}
   - component: {fileID: 8391748009050540102}
   - component: {fileID: 8391748009050540101}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8391748009092126234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BaseCharacter
   m_TagString: Pedestrian
   m_Icon: {fileID: 0}
@@ -769,7 +770,7 @@ GameObject:
   - component: {fileID: 8391748009128052340}
   - component: {fileID: 8391748009128052342}
   - component: {fileID: 8391748009128052341}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -851,7 +852,7 @@ GameObject:
   - component: {fileID: 8391748009196997350}
   - component: {fileID: 8391748009196997349}
   - component: {fileID: 8391748009196997348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -945,7 +946,7 @@ GameObject:
   - component: {fileID: 8391748009234257845}
   - component: {fileID: 8391748009234257844}
   - component: {fileID: 8391748009234257835}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1038,7 +1039,7 @@ GameObject:
   - component: {fileID: 8391748009267483255}
   - component: {fileID: 8391748009267483254}
   - component: {fileID: 8391748009267483253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1132,7 +1133,7 @@ GameObject:
   - component: {fileID: 8391748009285300274}
   - component: {fileID: 8391748009285300273}
   - component: {fileID: 8391748009285300272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Buckle_Inner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1225,7 +1226,7 @@ GameObject:
   - component: {fileID: 8391748009306425294}
   - component: {fileID: 8391748009306425293}
   - component: {fileID: 8391748009306425292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1317,7 +1318,7 @@ GameObject:
   - component: {fileID: 8391748009310336557}
   - component: {fileID: 8391748009310336559}
   - component: {fileID: 8391748009310336558}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1396,7 +1397,7 @@ GameObject:
   - component: {fileID: 8391748009310924000}
   - component: {fileID: 8391748009310924002}
   - component: {fileID: 8391748009310924001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1451,7 +1452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8391748009409169851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Beard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1489,7 +1490,7 @@ GameObject:
   - component: {fileID: 8391748009414153840}
   - component: {fileID: 8391748009414153847}
   - component: {fileID: 8391748009414153846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1582,7 +1583,7 @@ GameObject:
   - component: {fileID: 8391748009420773904}
   - component: {fileID: 8391748009420773911}
   - component: {fileID: 8391748009420773910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1676,7 +1677,7 @@ GameObject:
   - component: {fileID: 8391748009423713864}
   - component: {fileID: 8391748009423713871}
   - component: {fileID: 8391748009423713870}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Brim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1767,7 +1768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8391748009424629701}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Specifics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1805,7 +1806,7 @@ GameObject:
   - component: {fileID: 8391748009481913505}
   - component: {fileID: 8391748009481913507}
   - component: {fileID: 8391748009481913506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1886,7 @@ GameObject:
   - component: {fileID: 8391748009661299277}
   - component: {fileID: 8391748009661299276}
   - component: {fileID: 8391748009661299267}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bobble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1978,7 +1979,7 @@ GameObject:
   - component: {fileID: 8391748009749971697}
   - component: {fileID: 8391748009749971696}
   - component: {fileID: 8391748009749971703}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2070,7 +2071,7 @@ GameObject:
   - component: {fileID: 8391748009784468293}
   - component: {fileID: 8391748009784468295}
   - component: {fileID: 8391748009784468294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}

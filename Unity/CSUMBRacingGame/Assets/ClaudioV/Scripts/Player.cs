@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     Rigidbody rb;
 
     public float speed;
+    public float maxSpeed;
     public float turnSpeed;
     public float jumpSpeed;
 
@@ -35,6 +36,14 @@ public class Player : MonoBehaviour
         if (rb.velocity.magnitude > 0.5) {
             rb.angularVelocity = transform.up * Input.GetAxis("Horizontal") * turnSpeed;
         }
+        
+        // Restrict Car Speed
+        if (rb.velocity.magnitude > maxSpeed) {
+            rb.velocity = rb.velocity.normalized * maxSpeed;
+        }
+
+        // Uncomment to See Current Speed
+        //Debug.Log(rb.velocity.magnitude);
 
         // Speed Boost
         if (Input.GetKey(KeyCode.E)) {
