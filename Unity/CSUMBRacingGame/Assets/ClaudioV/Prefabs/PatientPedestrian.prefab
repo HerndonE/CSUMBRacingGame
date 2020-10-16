@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3193519834158024057}
   - component: {fileID: 3193519834158024056}
   - component: {fileID: 3193519834158024039}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 3193519834205607855}
   - component: {fileID: 3193519834205607841}
   - component: {fileID: 3193519834205607840}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StrapLeftBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   - component: {fileID: 3193519834242171448}
   - component: {fileID: 3193519834242171450}
   - component: {fileID: 3193519834242171449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pants_Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 3193519834278229589}
   - component: {fileID: 3193519834278229588}
   - component: {fileID: 3193519834278229587}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3193519834406775544}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Saucepan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 3193519834438987004}
   - component: {fileID: 3193519834438987006}
   - component: {fileID: 3193519834438987005}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StrapRightBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,7 +471,7 @@ GameObject:
   - component: {fileID: 3193519834503072784}
   - component: {fileID: 3193519834503072799}
   - component: {fileID: 3193519834503072798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Buckle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 3193519834505239815}
   - component: {fileID: 3193519834505239814}
   - component: {fileID: 3193519834505239813}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 3193519834546122773}
   - component: {fileID: 3193519834546122775}
   - component: {fileID: 3193519834546122774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pants_Lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -736,7 +736,7 @@ GameObject:
   - component: {fileID: 3193519834577230051}
   - component: {fileID: 3193519834577230053}
   - component: {fileID: 3193519834577230052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MouthCover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -813,7 +813,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3193519834652981010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 3193519834691072606}
   - component: {fileID: 3193519834691072592}
   - component: {fileID: 3193519834691072607}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 3193519834829015540}
   - component: {fileID: 3193519834829015539}
   - component: {fileID: 3193519834829015538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1029,7 +1029,7 @@ GameObject:
   - component: {fileID: 3193519834919487271}
   - component: {fileID: 3193519834919487289}
   - component: {fileID: 3193519834919487288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1108,7 +1108,7 @@ GameObject:
   - component: {fileID: 3193519835067624573}
   - component: {fileID: 3193519835067624575}
   - component: {fileID: 3193519835067624574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,7 +1185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3193519835109693515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1222,7 +1222,7 @@ GameObject:
   - component: {fileID: 3193519835171502581}
   - component: {fileID: 3193519835171502583}
   - component: {fileID: 3193519835171502582}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage_Inner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1301,7 +1301,7 @@ GameObject:
   - component: {fileID: 3193519835186979820}
   - component: {fileID: 3193519835186979822}
   - component: {fileID: 3193519835186979821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 3193519835217881194}
   - component: {fileID: 3193519835217881193}
   - component: {fileID: 3193519835217881192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1475,7 +1475,7 @@ GameObject:
   - component: {fileID: 3193519835246988090}
   - component: {fileID: 3193519835246988089}
   - component: {fileID: 3193519835246988088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Patch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 3193519835272646057}
   - component: {fileID: 3193519835272646059}
   - component: {fileID: 3193519835272646058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1645,7 +1645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3193519835305214804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EyePatch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1680,7 +1680,7 @@ GameObject:
   - component: {fileID: 3193519835322168298}
   - component: {fileID: 3193519835322168297}
   - component: {fileID: 3193519835322168296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1774,7 @@ GameObject:
   - component: {fileID: 3193519835404196126}
   - component: {fileID: 3193519835404196125}
   - component: {fileID: 3193519835404196124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1868,7 +1868,7 @@ GameObject:
   - component: {fileID: 3193519835496670079}
   - component: {fileID: 3193519835496670078}
   - component: {fileID: 3193519835496670077}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1961,7 +1961,7 @@ GameObject:
   - component: {fileID: 3193519835601908362}
   - component: {fileID: 3193519835601908364}
   - component: {fileID: 3193519835601908363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StrapRightTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2040,7 +2040,7 @@ GameObject:
   - component: {fileID: 3193519835674034088}
   - component: {fileID: 3193519835674034090}
   - component: {fileID: 3193519835674034089}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2118,7 +2118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3193519835735249931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BaseCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2155,7 +2155,7 @@ GameObject:
   - component: {fileID: 3193519835796647537}
   - component: {fileID: 3193519835796647539}
   - component: {fileID: 3193519835796647538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2234,7 +2234,7 @@ GameObject:
   - component: {fileID: 3193519835801013485}
   - component: {fileID: 3193519835801013487}
   - component: {fileID: 3193519835801013486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Saucepan_Lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2314,7 +2314,7 @@ GameObject:
   - component: {fileID: 3193519835916701545}
   - component: {fileID: 3193519835916701544}
   - component: {fileID: 3193519835916701527}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2405,7 +2405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3193519835955975148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Specifics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2446,7 +2446,7 @@ GameObject:
   - component: {fileID: 3193519836030627323}
   - component: {fileID: 3193519836030627325}
   - component: {fileID: 3193519836030627324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Saucepan_Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2525,7 +2525,7 @@ GameObject:
   - component: {fileID: 3193519836107560762}
   - component: {fileID: 3193519836107560764}
   - component: {fileID: 3193519836107560763}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Saucepan_Upper_Ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2604,7 +2604,7 @@ GameObject:
   - component: {fileID: 3193519836112236737}
   - component: {fileID: 3193519836112236739}
   - component: {fileID: 3193519836112236738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StrapLeftTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2684,7 +2684,7 @@ GameObject:
   - component: {fileID: 3193519836138919695}
   - component: {fileID: 3193519836138919694}
   - component: {fileID: 3193519836138919693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2778,7 +2778,7 @@ GameObject:
   - component: {fileID: 3193519836175765356}
   - component: {fileID: 3193519836175765355}
   - component: {fileID: 3193519836175765354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2872,7 +2872,7 @@ GameObject:
   - component: {fileID: 3193519836262732014}
   - component: {fileID: 3193519836262732013}
   - component: {fileID: 3193519836262732012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bandage (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2965,7 +2965,7 @@ GameObject:
   - component: {fileID: 6109417973383286357}
   - component: {fileID: 6109417973383286359}
   - component: {fileID: 6109417973383286356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3025,7 +3025,7 @@ GameObject:
   - component: {fileID: 6109417973870331382}
   - component: {fileID: 6109417973870331383}
   - component: {fileID: 6109417973870331380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PatientPedestrian
   m_TagString: Pedestrian
   m_Icon: {fileID: 0}
@@ -3116,7 +3116,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6109417973870331378}
   serializedVersion: 2
-  m_Mass: 0.5
+  m_Mass: 0.1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -3138,3 +3138,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentWP: 0
   speed: 0
+  jumpSpeed: 200
