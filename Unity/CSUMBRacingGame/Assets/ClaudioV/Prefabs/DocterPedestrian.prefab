@@ -127,7 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentWP: 0
   speed: 0
-  jumpSpeed: 200
+  jumpSpeed: 50
 --- !u!1 &5242834948926064473
 GameObject:
   m_ObjectHideFlags: 0
