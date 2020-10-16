@@ -6012,6 +6012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  maxSpeed: 30
   turnSpeed: 2
   jumpSpeed: 350
 --- !u!54 &1096415308
