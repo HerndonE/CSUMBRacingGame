@@ -11,13 +11,12 @@ public class TimeScript : MonoBehaviour
 
     public GameObject car; //This will be our player
     float time = 0.0f; 
-    public int coins = 0;
     bool timeStarted = true; //Dictate when and how time is used in game
  
     // Start is called before the first frame update
     void Start()
     {
-
+       
     }
 
     // Update is called once per frame
@@ -27,14 +26,14 @@ public class TimeScript : MonoBehaviour
         {
             time += Time.deltaTime; //Incriment time as long as we are true
             //if (time >= 3.0f)
-            if(gameObject.GetComponent<CheckPointSystem>().finished == false) //Check if the player the finished the course
+            if (gameObject.GetComponent<CheckPointSystem>().finished == false) //Check if the player the finished the course
             {
                 //timerFunction();
 
                 //Display information from the race and stop the time
                 Debug.Log("Time: " + time);
-                coins += 50;
-                Debug.Log("Coins: " + coins);
+                gameObject.GetComponent<CheckPointSystem>().addCoins += 50;
+                Debug.Log("Coins: " + gameObject.GetComponent<CheckPointSystem>().addCoins);
                 timeStarted = false;
             }
         }
@@ -45,4 +44,18 @@ public class TimeScript : MonoBehaviour
     {
 
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        
+            if (other.gameObject.tag == "Pedestrian")
+            {
+                Debug.Log("Player has hit a pedestrian!");
+                gameObject.GetComponent<CheckPointSystem>().addCoins--;
+            }
+
+
+    }
+
+
 }
