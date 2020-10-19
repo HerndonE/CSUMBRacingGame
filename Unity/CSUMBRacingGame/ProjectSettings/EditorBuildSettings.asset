@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/JosueG/Scenes/Main Menu Scene.unity
-    guid: 3339fbc84aa252846aa414bc220a95f2
-  - enabled: 1
-    path: Assets/ClaudioV/CVScene.unity
-    guid: ca539186dd55b3a4ebe535fdb405974b
+    path: Assets/Scenes/Game.unity
+    guid: 2812b523da77fd046b2824f6648d9ea5
   m_configObjects: {}
