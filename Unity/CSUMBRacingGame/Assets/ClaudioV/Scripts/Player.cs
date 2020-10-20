@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     public float speed;
     public float maxSpeed;
+    public float currentSpeed;
     public float turnSpeed;
     public float jumpSpeed;
 
@@ -42,8 +43,8 @@ public class Player : MonoBehaviour
             rb.velocity = rb.velocity.normalized * maxSpeed;
         }
 
-        // Uncomment to See Current Speed
-        //Debug.Log(rb.velocity.magnitude);
+        // Current Car Speed
+        currentSpeed = rb.velocity.magnitude;
 
         // Speed Boost
         if (Input.GetKey(KeyCode.E)) {
