@@ -32,6 +32,17 @@ public class TimeScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        one = 0.0f;
+        two = 0.0f;
+        three = 0.0f;
+        timeStartedOne = false;
+        timeStartedTwo = false;
+        timeStartedThree = false;
+        timeFinishedOne = false;
+        timeFinishedTwo = false;
+        timeFinishedThree = false;
+        coinPenalty = 1;
+
         coinText.text = "Coins: ";
         firstLap.text = "Lap 1 Time: " + one.ToString("F2");
         secondLap.text = "Lap 2 Time: " + two.ToString("F2");
@@ -111,7 +122,7 @@ public class TimeScript : MonoBehaviour
         coinText.text = "Coins: " + gameObject.GetComponent<CheckPointSystem>().addCoins;
         Debug.Log("Coins: " + gameObject.GetComponent<CheckPointSystem>().addCoins);
 
-        if (gameObject.GetComponent<CheckPointSystem>().addCoins <= 50)
+        if (gameObject.GetComponent<CheckPointSystem>().addCoins < (50 * gameObject.GetComponent<CheckPointSystem>().lapCount))
         {
             coinPenalty--;
             if(coinPenalty < 0)
@@ -121,7 +132,7 @@ public class TimeScript : MonoBehaviour
 
         }
 
-        else if (gameObject.GetComponent<CheckPointSystem>().addCoins > 50)
+        else if (gameObject.GetComponent<CheckPointSystem>().addCoins >= (50 * gameObject.GetComponent<CheckPointSystem>().lapCount))
         {
             coinPenalty++;
         }
