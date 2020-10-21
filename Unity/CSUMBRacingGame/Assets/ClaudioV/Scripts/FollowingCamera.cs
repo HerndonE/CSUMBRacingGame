@@ -12,8 +12,13 @@ public class FollowingCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        camTransform.position = transform.position;
-        camTransform.rotation = transform.rotation;
+        // Update Camera Follow Point to Camera 
+        //camTransform.position = transform.position;
+        //camTransform.rotation = transform.rotation;
+
+        // Update Camera to Camera Follow Point
+        transform.position = camTransform.position;
+        transform.rotation = camTransform.rotation;
     }
 
     // Update is called once per frame

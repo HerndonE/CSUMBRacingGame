@@ -13,6 +13,7 @@ public class Pedestrian : MonoBehaviour
 
     // Pedestrian Info
     public float speed;
+    public float jumpSpeed;
     int direction;
     int walkStyle;
     int carReaction;
@@ -28,7 +29,7 @@ public class Pedestrian : MonoBehaviour
 
         speed = Random.Range(2, 9);
         direction = Random.Range(0, 2) == 0 ? -1 : 1;
-        walkStyle = Random.Range(0, 2);
+        walkStyle = 0;
         carReaction = Random.Range(0, 3);
 
         if (carReaction != 2) {
@@ -53,7 +54,7 @@ public class Pedestrian : MonoBehaviour
 
             if (walkStyle == 0) { // Regular Walking
                 transform.Translate(Vector3.forward * speed * Time.deltaTime);
-            } else { // Hopping
+            } else { // Hopping (Doesn't work with New Models)
                 Vector3 rbv = rb.velocity;
                 rbv.x = transform.forward.x * speed;
                 rbv.z = transform.forward.z * speed;
@@ -78,7 +79,7 @@ public class Pedestrian : MonoBehaviour
     // React to Car (Depends on Type of Reaction & the Trigger)
     public void CarReact(string trigger, Transform player) {
         if (carReaction == 0 && trigger == "enterPlayer") { // Jump
-            rb.AddForce(transform.up * 450);
+            rb.AddForce(transform.up * jumpSpeed);
         } else if (carReaction == 1 && trigger.Contains("Player")) { // Freeze
             freeze = freeze == false;
         } else if (carReaction == 2 && trigger.Contains("Pedestrian")) { // Chase Car
