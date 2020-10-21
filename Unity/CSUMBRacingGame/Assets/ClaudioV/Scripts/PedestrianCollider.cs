@@ -19,13 +19,13 @@ public class PedestrianCollider : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Player")) {
+        if (other.CompareTag("Player") && parentScript != null) {
             parentScript.CarReact("enterPedestrian", other.transform);
         }
     }
 
     private void OnTriggerExit(Collider other) {
-        if (other.CompareTag("Player")) {
+        if (other.CompareTag("Player") && parentScript != null) {
             parentScript.CarReact("exitPedestrian", other.transform);
         }
     }
