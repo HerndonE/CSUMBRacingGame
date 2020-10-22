@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/*
+ * Ethan Herndon
+ * 10/15/2020
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +12,7 @@ public class CheckPointSystem : MonoBehaviour
     public GameObject playerNCar;
     public GameObject[] waypointObjects;
     private int counter = 0;
+    public bool finished = true;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +41,10 @@ public class CheckPointSystem : MonoBehaviour
 
             if (counter == waypointObjects.Length)
             {
+                finished = false;
                 Debug.Log("you made it!");
+                Debug.Log("finished: " + finished);
+                
             }
 
         }
