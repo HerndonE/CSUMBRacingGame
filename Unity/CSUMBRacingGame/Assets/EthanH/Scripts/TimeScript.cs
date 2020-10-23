@@ -43,77 +43,79 @@ public class TimeScript : MonoBehaviour
         timeFinishedThree = false;
         coinPenalty = 1;
 
-        coinText.text = "Coins: 0";
-        firstLap.text = "Lap 1 Time: " + one.ToString("F2");
-        secondLap.text = "Lap 2 Time: " + two.ToString("F2");
-        thirdLap.text = "Lap 3 Time: " + three.ToString("F2");
+        if (MainMenu.gameMode == "Race") {
+            coinText.text = "Coins: 0";
+            firstLap.text = "Lap 1 Time: " + one.ToString("F2");
+            secondLap.text = "Lap 2 Time: " + two.ToString("F2");
+            thirdLap.text = "Lap 3 Time: " + three.ToString("F2");
+        } else {
+            coinText.text = "";
+            firstLap.text = "";
+            secondLap.text = "";
+            thirdLap.text = "";
+            timeText.text = "";
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timeStarted == true)
-        {
-            time += Time.deltaTime; //Incriment time as long as we are true
-            timeText.text = "Time: " + time.ToString("F2");
-            timeStartedOne = true;
-            //if (time >= 3.0f)
-            if (gameObject.GetComponent<CheckPointSystem>().finished == false) //Check if the player the finished the course
-            {
-                //timerFunction();
+        if (MainMenu.gameMode == "Race") {
+            if (timeStarted == true) {
+                time += Time.deltaTime; //Incriment time as long as we are true
+                timeText.text = "Time: " + time.ToString("F2");
+                timeStartedOne = true;
+                //if (time >= 3.0f)
+                if (gameObject.GetComponent<CheckPointSystem>().finished == false) //Check if the player the finished the course
+                {
+                    //timerFunction();
 
-                //Display information from the race and stop the time
-                Debug.Log("Time: " + time);
-                timeStarted = false;
+                    //Display information from the race and stop the time
+                    Debug.Log("Time: " + time);
+                    timeStarted = false;
+                }
+            }
+
+            if (gameObject.GetComponent<CheckPointSystem>().lapCount == 1 && timeFinishedOne == false) {
+                firstLap.text = "Lap 1 Time: " + one.ToString("F2");
+                timeStartedOne = false;
+                time = 0;
+                timeFinishedOne = true;
+                timeStartedTwo = true;
+                coinFunction();
+
+            }
+
+            if (gameObject.GetComponent<CheckPointSystem>().lapCount == 2 && timeFinishedTwo == false) {
+                secondLap.text = "Lap 2 Time: " + two.ToString("F2");
+                timeStartedTwo = false;
+                time = 0;
+                timeFinishedTwo = true;
+                timeStartedThree = true;
+                coinFunction();
+            }
+
+            if (gameObject.GetComponent<CheckPointSystem>().lapCount == 3 && timeFinishedThree == false) {
+                thirdLap.text = "Lap 3 Time: " + three.ToString("F2");
+                timeStartedThree = false;
+                time = 0;
+                timeFinishedThree = true;
+                coinFunction();
+
+            }
+
+            if (timeStartedOne == true) {
+                one += Time.deltaTime;
+            }
+
+            if (timeStartedTwo == true) {
+                two += Time.deltaTime;
+            }
+
+            if (timeStartedThree == true) {
+                three += Time.deltaTime;
             }
         }
-
-        if (gameObject.GetComponent<CheckPointSystem>().lapCount == 1 && timeFinishedOne == false)
-        {
-            firstLap.text = "Lap 1 Time: " + one.ToString("F2");
-            timeStartedOne = false;
-            time = 0;
-            timeFinishedOne = true;
-            timeStartedTwo = true;
-            coinFunction();
-
-        }
-
-        if (gameObject.GetComponent<CheckPointSystem>().lapCount == 2 && timeFinishedTwo == false)
-        {
-            secondLap.text = "Lap 2 Time: " + two.ToString("F2");
-            timeStartedTwo = false;
-            time = 0;
-            timeFinishedTwo= true;
-            timeStartedThree = true;
-            coinFunction();
-        }
-
-        if (gameObject.GetComponent<CheckPointSystem>().lapCount == 3 && timeFinishedThree == false)
-        {
-            thirdLap.text = "Lap 3 Time: " + three.ToString("F2");
-            timeStartedThree = false;
-            time = 0;
-            timeFinishedThree = true;
-            coinFunction();
-
-        }
-
-        if (timeStartedOne == true)
-        {
-            one += Time.deltaTime;
-        }
-
-        if (timeStartedTwo == true)
-        {
-            two += Time.deltaTime;
-        }
-
-        if (timeStartedThree == true)
-        {
-            three += Time.deltaTime;
-        }
-
     }
 
     void coinFunction()
@@ -143,7 +145,7 @@ public class TimeScript : MonoBehaviour
     {
 
         
-            if (other.gameObject.tag == "Pedestrian")
+            if (other.gameObject.tag == "Pedestrian" && MainMenu.gameMode == "Race")
             {
                 Debug.Log("Player has hit a pedestrian!");
                 Debug.Log("Coin Penalty: " + coinPenalty);

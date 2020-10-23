@@ -29,7 +29,8 @@ public class npcCarMovement : MonoBehaviour
         // Debug.Log("Wow Ethan!");
         if (other.gameObject.name == objectHit)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            transform.position = new Vector3(-347.3f, 2.3f, -142.69f);
         }
 
     }
