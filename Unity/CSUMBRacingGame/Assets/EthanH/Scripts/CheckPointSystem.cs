@@ -16,18 +16,29 @@ public class CheckPointSystem : MonoBehaviour
     public int addCoins = 0;
     public Text coinText;
     public Text lapText;
+    public Text youWon;
     public bool finished = true;
     public int lapCount = 0;
 
     // Start is called before the first frame update
     void Start()
     {
+        counter = 0;
+        addCoins = 0;
+        finished = true;
+        lapCount = 0;
+
         lapText.text = "Lap: " + lapCount.ToString() + "/3";
+        youWon.GetComponent<Text>().enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            youWon.GetComponent<Text>().enabled = false;
+        }
     }
 
 
@@ -67,6 +78,9 @@ public class CheckPointSystem : MonoBehaviour
                     finished = false;
                     Debug.Log("you made it!");
                     Debug.Log("finished: " + finished);
+                    youWon.GetComponent<Text>().enabled = true;
+                    Time.timeScale = 0;
+
                 }
 
              

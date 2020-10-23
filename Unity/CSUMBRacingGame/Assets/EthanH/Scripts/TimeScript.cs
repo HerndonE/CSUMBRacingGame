@@ -43,7 +43,7 @@ public class TimeScript : MonoBehaviour
         timeFinishedThree = false;
         coinPenalty = 1;
 
-        coinText.text = "Coins: ";
+        coinText.text = "Coins: 0";
         firstLap.text = "Lap 1 Time: " + one.ToString("F2");
         secondLap.text = "Lap 2 Time: " + two.ToString("F2");
         thirdLap.text = "Lap 3 Time: " + three.ToString("F2");
