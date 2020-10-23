@@ -28,7 +28,15 @@ public class CheckPointSystem : MonoBehaviour
         finished = true;
         lapCount = 0;
 
-        lapText.text = "Lap: " + lapCount.ToString() + "/3";
+        if (MainMenu.gameMode == "Race") {
+            lapText.text = "Lap: " + lapCount.ToString() + "/3";
+        } else {
+            lapText.text = "";
+
+            for (int i = 0; i < waypointObjects.Length; i++) {
+                waypointObjects[i].SetActive(false);
+            }
+        }
         youWon.GetComponent<Text>().enabled = false;
     }
 
@@ -44,48 +52,44 @@ public class CheckPointSystem : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-       // Debug.Log("Wow Ethan!");
+        // Debug.Log("Wow Ethan!");
+        if (MainMenu.gameMode == "Race") {
 
-
-        for (int i = 0; i < waypointObjects.Length; i++)
-        {
-            if (other.gameObject == waypointObjects[i])
-            {
-                Debug.Log("Waypoint: " + i);
-                //Destroy(waypointObjects[i]);
-                waypointObjects[i].SetActive(false);
-                counter++;
-                addCoins++;
-                Debug.Log("Coin count: " + addCoins);
-                coinText.text = "Coins: " + addCoins;
-            }
-
-            if (counter == waypointObjects.Length)
-            {
-
-                counter = 0;
-                lapCount++;
-                Debug.Log("Lap Count: " + lapCount);
-                lapText.text = "Lap: " + lapCount.ToString() + "/3";
-                for (int j = 0; j < waypointObjects.Length; j++)
-                {
-                    waypointObjects[j].SetActive(true);
+            for (int i = 0; i < waypointObjects.Length; i++) {
+                if (other.gameObject == waypointObjects[i]) {
+                    Debug.Log("Waypoint: " + i);
+                    //Destroy(waypointObjects[i]);
+                    waypointObjects[i].SetActive(false);
+                    counter++;
+                    addCoins++;
+                    Debug.Log("Coin count: " + addCoins);
+                    coinText.text = "Coins: " + addCoins;
                 }
 
+                if (counter == waypointObjects.Length) {
 
-                if (lapCount == 3)
-                {
-                    finished = false;
-                    Debug.Log("you made it!");
-                    Debug.Log("finished: " + finished);
-                    youWon.GetComponent<Text>().enabled = true;
-                    Time.timeScale = 0;
+                    counter = 0;
+                    lapCount++;
+                    Debug.Log("Lap Count: " + lapCount);
+                    lapText.text = "Lap: " + lapCount.ToString() + "/3";
+                    for (int j = 0; j < waypointObjects.Length; j++) {
+                        waypointObjects[j].SetActive(true);
+                    }
+
+
+                    if (lapCount == 3) {
+                        finished = false;
+                        Debug.Log("you made it!");
+                        Debug.Log("finished: " + finished);
+                        youWon.GetComponent<Text>().enabled = true;
+                        Time.timeScale = 0;
+
+                    }
+
 
                 }
 
-             
             }
-
         }
      
     }
