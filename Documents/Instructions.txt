@@ -1,12 +1,13 @@
 CSUMB Racing
 
 Instructions:
-Race against the clock around the center of the CSUMB campus while
-avoiding pedestrians. Earn coins by hitting the checkpoints and 
-completing laps. Hitting pedestrains will make you lose coins. The
-better you peform and the more coins you get will increase the 
-penalty when hitting pedestrains.Complete three laps to finish the 
-race and enjoy your visit to the CSUMB campus.
+Welcome to CSUMB Racing, choose between two gamemodes, Race and 
+Free Roam. Race against the clock around the center of the CSUMB 
+campus while avoiding pedestrians. Earn coins by hitting the 
+checkpoints and completing laps. Hitting pedestrains will make 
+you lose coins. The better you peform and the more coins you get 
+will increase the penalty when hitting pedestrains. Complete three 
+laps to finish the race and enjoy your visit to the CSUMB campus.
 
 Controls:
 WASD/Arrow Keys - Movement
