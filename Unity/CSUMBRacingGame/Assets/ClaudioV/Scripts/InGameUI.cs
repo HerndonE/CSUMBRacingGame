@@ -7,6 +7,7 @@ public class InGameUI : MonoBehaviour
 {
     public Player player;
     public RectTransform needle;
+    public Text speedText;
 
     float needleRotation;
 
@@ -20,7 +21,8 @@ public class InGameUI : MonoBehaviour
     void Update()
     {
         needleRotation = (player.currentSpeed / player.maxSpeed) * -270 + 135;
-
         needle.rotation = Quaternion.Euler(0, 0, needleRotation);
+
+        speedText.text = player.currentSpeed.ToString("F2");
     }
 }

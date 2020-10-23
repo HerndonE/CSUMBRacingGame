@@ -279,7 +279,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -291,7 +291,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
   m_Text: "WASD or \u2190\u2191\u2192\u2193 for Movement\nE for Boost\nSpace to Jump
-    \nLeft Shift to Break\nESC to Pause/Exit Game\nF to Turn On/Off Headlights"
+    \nLeft Shift to Break\nR to Reset Car Position\nESC to Pause/Exit Game\nF to
+    Turn On/Off Headlights"
 --- !u!222 &810976937
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class PauseGame : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public CheckPointSystem checkPointSystem;
 
     bool pause;
 
@@ -29,7 +30,10 @@ public class PauseGame : MonoBehaviour
                 Time.timeScale = 0;
                 pauseMenu.SetActive(true);
             } else {
-                Time.timeScale = 1;
+                // Unpause Game if Race is Not Comeplete 
+                if (checkPointSystem.finished) {
+                    Time.timeScale = 1;
+                }
                 pauseMenu.SetActive(false);
             }
         }

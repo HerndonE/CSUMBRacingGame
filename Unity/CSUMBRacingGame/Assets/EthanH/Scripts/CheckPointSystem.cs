@@ -23,6 +23,11 @@ public class CheckPointSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        counter = 0;
+        addCoins = 0;
+        finished = true;
+        lapCount = 0;
+
         lapText.text = "Lap: " + lapCount.ToString() + "/3";
         youWon.GetComponent<Text>().enabled = false;
     }
