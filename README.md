@@ -10,7 +10,7 @@
 1. [Discord Server Link](https://discord.gg/heMjATN)
 
 ### Instructions:   
-Welcome to CSUMB Racing, choose between two gamemodes, Race and 
+Welcome to CSUMB Racing game! This game allows new students to familiarize themselves on otter territory! Choose between two gamemodes, Race and 
 Free Roam. Race against the clock around the center of the CSUMB 
 campus while avoiding pedestrians. Earn coins by hitting the 
 checkpoints and completing laps. Hitting pedestrains will make 
