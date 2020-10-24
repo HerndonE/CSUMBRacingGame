@@ -7,7 +7,16 @@
 ![](https://img.shields.io/github/stars/HerndonE/CSUMBRacingGame?style=social)
 ![](https://img.shields.io/github/forks/HerndonE/CSUMBRacingGame?style=social)
 
-1. [Discord Server Link](https://discord.gg/heMjATN)
+1. [Discord Server Link](https://discord.gg/heMjATN)    
+2. [Download Game Here](https://github.com/HerndonE/CSUMBRacingGame/blob/master/Game/CSUMB%20Racing.zip?raw=true)    
+
+# Game Images:    
+<p float="left">
+  <img src="https://github.com/HerndonE/CSUMBRacingGame/blob/master/Images/Screenshot%20(4).png" width="400" />
+  <img src="https://github.com/HerndonE/CSUMBRacingGame/blob/master/Images/Screenshot%20(5).png" width="400" /> 
+  <img src="https://github.com/HerndonE/CSUMBRacingGame/blob/master/Images/Screenshot%20(6).png" width="400" />
+  <img src="https://github.com/HerndonE/CSUMBRacingGame/blob/master/Images/Screenshot%20(1).png" width="400" />
+</p>
 
 ### Instructions:   
 Welcome to CSUMB Racing game! This game allows new students to familiarize themselves on otter territory! Choose between two gamemodes, Race and 
