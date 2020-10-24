@@ -48,7 +48,7 @@ Role: 3D Modeler
 [<img align="left" alt="Geoffrey| LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/geoffrey-woods-330275199/)
 
 ### Josue Gonzalez
-Role: Menu UI 
+Role: Menu UI    
 [<img align="left" alt="Josue | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />]( https://www.linkedin.com/in/josue-gonzalez-b1a003147/)         
     
 ## Issues
