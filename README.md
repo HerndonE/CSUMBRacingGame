@@ -21,12 +21,12 @@ laps to finish the race and enjoy your visit to the CSUMB campus.
 ### Controls:
 ```
 WASD/Arrow Keys - Movement  
-E 		- Speed Boost  
-Left Shift 	- Break  
-Spacebar 	- Jump  
-F		- Headlights  
-R		- Reset Car Position  
-Esc		- Pause/Exit Game
+E 		      - Speed Boost  
+Left Shift 	 - Break  
+Spacebar 	   - Jump  
+F		       - Headlights  
+R		       - Reset Car Position  
+Esc		     - Pause/Exit Game
 ```
 
 ### Creators (Alphabetic Order):      
