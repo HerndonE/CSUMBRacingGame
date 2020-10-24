@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Control Method 1 (No Momementum, slows down quickly)
         /*rb.velocity = transform.forward * Input.GetAxis("Vertical") * speed;
