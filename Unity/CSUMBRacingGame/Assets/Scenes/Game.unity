@@ -4886,7 +4886,7 @@ GameObject:
   - component: {fileID: 225888662}
   - component: {fileID: 225888661}
   - component: {fileID: 225888660}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7704,7 +7704,7 @@ GameObject:
   - component: {fileID: 381201886}
   - component: {fileID: 381201885}
   - component: {fileID: 381201884}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16659,7 +16659,7 @@ GameObject:
   - component: {fileID: 828558473}
   - component: {fileID: 828558472}
   - component: {fileID: 828558471}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17542,10 +17542,20 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: -0.93
       objectReference: {fileID: 0}
+    - target: {fileID: 1527532542486391046, guid: b6ae1517269da2646a2f20d7fb864cd7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4622387661822506538, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
       propertyPath: m_Name
       value: WayPoint3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622387661822506538, guid: b6ae1517269da2646a2f20d7fb864cd7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5265740170827522345, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
@@ -23749,7 +23759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1173029116}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: w2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24519,7 +24529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1207636927}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: w3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26745,7 +26755,7 @@ GameObject:
   - component: {fileID: 1278824061}
   - component: {fileID: 1278824060}
   - component: {fileID: 1278824059}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27535,7 +27545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1332383731}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: w1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27557,7 +27567,7 @@ Transform:
   - {fileID: 1575190908}
   - {fileID: 1808206849}
   m_Father: {fileID: 1439532107}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337746048
 GameObject:
@@ -28234,7 +28244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1362700106}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: w4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29167,8 +29177,8 @@ Transform:
   m_LocalPosition: {x: 0.5913849, y: 6.6170187, z: 1.6891458}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1332383731}
   - {fileID: 169273228}
+  - {fileID: 1332383731}
   - {fileID: 1173029116}
   - {fileID: 1207636927}
   - {fileID: 1362700106}
@@ -30898,7 +30908,7 @@ PrefabInstance:
     - target: {fileID: 5265740170827522345, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5265740170827522345, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
@@ -32043,10 +32053,20 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: -0.93
       objectReference: {fileID: 0}
+    - target: {fileID: 1527532542486391046, guid: b6ae1517269da2646a2f20d7fb864cd7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4622387661822506538, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
       propertyPath: m_Name
       value: WayPoint2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622387661822506538, guid: b6ae1517269da2646a2f20d7fb864cd7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5265740170827522345, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
@@ -32437,10 +32457,20 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: -0.93
       objectReference: {fileID: 0}
+    - target: {fileID: 1527532542486391046, guid: b6ae1517269da2646a2f20d7fb864cd7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4622387661822506538, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
       propertyPath: m_Name
       value: WayPoint4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622387661822506538, guid: b6ae1517269da2646a2f20d7fb864cd7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5265740170827522345, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
@@ -32803,10 +32833,20 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: -0.93
       objectReference: {fileID: 0}
+    - target: {fileID: 1527532542486391046, guid: b6ae1517269da2646a2f20d7fb864cd7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4622387661822506538, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
       propertyPath: m_Name
       value: WayPoint1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622387661822506538, guid: b6ae1517269da2646a2f20d7fb864cd7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5265740170827522345, guid: b6ae1517269da2646a2f20d7fb864cd7,
         type: 3}
@@ -33469,7 +33509,7 @@ GameObject:
   - component: {fileID: 1607466849}
   - component: {fileID: 1607466848}
   - component: {fileID: 1607466847}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36350,7 +36390,7 @@ GameObject:
   - component: {fileID: 1741990594}
   - component: {fileID: 1741990593}
   - component: {fileID: 1741990592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37739,7 +37779,7 @@ GameObject:
   - component: {fileID: 1808206852}
   - component: {fileID: 1808206851}
   - component: {fileID: 1808206850}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43022,7 +43062,7 @@ GameObject:
   - component: {fileID: 2087384088}
   - component: {fileID: 2087384087}
   - component: {fileID: 2087384086}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
